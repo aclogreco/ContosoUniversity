@@ -16,7 +16,7 @@ namespace ContosoUniversity.DAL {
 
 		public override void ReaderExecuting(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext) {
 			bool throwTransientErrors = false;
-			if (command.Parameters.Count > 0 && command.Parameters[0].Value.ToString() == "throw") {
+			if (command.Parameters.Count > 0 && command.Parameters[0].Value.ToString() == "%Throw%") {
 				throwTransientErrors = true;
 				command.Parameters[0].Value = "an";
 				command.Parameters[1].Value = "an";
