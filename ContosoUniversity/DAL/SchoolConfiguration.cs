@@ -1,7 +1,6 @@
 ﻿using System.Data.Entity;
-using System.Data.Entity.SqlServer;
-using ContosoUniversity.DAL;
 using System.Data.Entity.Infrastructure.Interception;
+using System.Data.Entity.SqlServer;
 
 namespace ContosoUniversity.DAL {
 	public class SchoolConfiguration : DbConfiguration {
