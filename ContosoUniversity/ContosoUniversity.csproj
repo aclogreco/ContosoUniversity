@@ -143,6 +143,10 @@
     <Compile Include="Migrations\201412080443521_MaxLengthOnNames.Designer.cs">
       <DependentUpon>201412080443521_MaxLengthOnNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412080537482_ColumnFirstName.cs" />
+    <Compile Include="Migrations\201412080537482_ColumnFirstName.Designer.cs">
+      <DependentUpon>201412080537482_ColumnFirstName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
@@ -211,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412080443521_MaxLengthOnNames.resx">
       <DependentUpon>201412080443521_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412080537482_ColumnFirstName.resx">
+      <DependentUpon>201412080537482_ColumnFirstName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
